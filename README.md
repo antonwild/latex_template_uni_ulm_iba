@@ -12,7 +12,7 @@ A simple and elegant LaTeX template for academic and professional documents.
 7. [Contact Information](#contact-information)
 
 ## Installation
-Lorem Ipsum
+Install this
 
 
 ### Prerequisites
@@ -23,4 +23,9 @@ Lorem Ipsum
 ## Usage
 
 ## Examples
-    
+
+## Acknowledgments
+- This template was inspired by <a>https://www.uni-ulm.de/mawi/iba/lehre/downloads/</a>
+
+## Contact Information
+For questions, please contact anton.awild@gmail.com
