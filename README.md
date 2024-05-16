@@ -12,11 +12,13 @@ A simple and elegant LaTeX template for academic and professional documents.
 7. [Contact Information](#contact-information)
 
 ## Installation
+Lorem Ipsum
+
+**#usage**
+This is how to use the template
 
 ### Prerequisites
 - TeX Live or MiKTeX
 
 ### Installation Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-template.git
+
