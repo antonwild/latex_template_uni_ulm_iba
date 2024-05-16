@@ -69,7 +69,7 @@ to
 ## License
 MIT License
 
-Copyright (c) 2024 Anton Wild
+Copyright (c) 2024 antonwild
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this template and associated documentation files (the "template"), to deal
