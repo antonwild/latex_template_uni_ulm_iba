@@ -1,0 +1,133 @@
+% Insert Seetings
+\input{layout}
+
+% =======================================================
+% ================= Begin of Document ===================
+% =======================================================
+\begin{document}
+
+
+% =======================================================
+% =================== Title Page ========================
+% =======================================================
+\input{pre_chapter/deckblatt}
+
+
+% =======================================================
+% =================== Header Image ======================
+% =======================================================
+\newcommand{\logo}{
+  \begin{tikzpicture}[overlay, remember picture]
+    \node[xshift=-4.1cm,yshift=-1.5cm] at (current page.north east) {\includegraphics[height=1.2cm]{images/uni-ulm-logo.png}};
+  \end{tikzpicture}
+}
+
+% Add the image to every page
+\AddEverypageHook{\logo}
+
+
+% =======================================================
+% ======================= TOC ===========================
+% =======================================================
+\pagenumbering{Roman}
+\renewcommand{\cftdotsep}{.5}
+\tableofcontents
+
+
+% =======================================================
+% =============== Confidential Clause ===================
+% =======================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Sperrvermerk}
+\input{pre_chapter/sperrvermerk}
+
+
+% =======================================================
+% =================== List of Figures ===================
+% =======================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\setlength{\cftfigindent}{0pt}  
+\renewcommand{\cftfignumwidth}{7em}
+\renewcommand{\cftfigdotsep}{.5} 
+\renewcommand{\cftfigpresnum}{Abbildung }
+\listoffigures
+
+
+% =======================================================
+% ================== List of Tables =====================
+% =======================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+\setlength{\cfttabindent}{0pt}  
+\renewcommand{\cfttabnumwidth}{5em} 
+\renewcommand{\cfttabdotsep}{.5} 
+\renewcommand{\cfttabpresnum}{Tabelle } 
+\listoftables
+
+
+% =======================================================
+% ================ List of Abbreviations ================
+% =======================================================
+\newpage
+\input{pre_chapter/abkuerzungsverzeichnis}
+
+
+
+
+% =======================================================
+% ================== Main Content =======================
+% =======================================================
+\pagenumbering{arabic}
+\newpage
+\input{main_content/einleitung}
+\input{main_content/theoretischer_hintergrund}
+
+
+
+% Change to Roman numerals for appendix and beyond
+\clearpage
+\pagenumbering{Roman}
+\setcounter{page}{6} % Start with page after chapters with arabic numbering.
+
+
+% =======================================================
+% ===================== Apppendix =======================
+% =======================================================
+\pagestyle{plain}
+\input{pre_chapter/anhang}
+
+
+% =======================================================
+% ==================== Bibliography =====================
+% =======================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\printbibliography
+
+
+% =======================================================
+% ===================== Declaration =====================
+% =======================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Ehrenwörtliche Erklärung}
+\input{pre_chapter/ehrenwoertliche_erklaerung}
+
+% =======================================================
+% ================== AI Tool Usage ======================
+% =======================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{KI-Tool-Verzeichnis}
+\input{pre_chapter/ki-tool}
+
+
+% =======================================================
+% =================== End of Document ===================
+% =======================================================
+\end{document}

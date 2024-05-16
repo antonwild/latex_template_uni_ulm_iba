@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article} % Define Class
+
+\usepackage[ngerman]{babel} % German Language Package
+
+\usepackage{helvet} % Set font to Helvetica (similar to Arial)
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{graphicx} % Insert Images
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{changepage}
+\usepackage{tocloft} % Package for TOC
+\usepackage{titlesec}
+
+\usepackage{xcolor} % For text color
+
+\usepackage{tikz}
+\usepackage{everypage}
+
+\usepackage{setspace}
+\onehalfspacing % Line spacing 1.5
+
+\usepackage{appendix} % For numbering the appendices like A.1, A.2, ...
+\usepackage[left=3cm, right=2cm, top=3cm, bottom=2.5cm]{geometry} % Set margins
+
+
+% Set headers for standard sections
+\usepackage{fancyhdr}
+\setlength{\headheight}{33pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}} % Chapter name and number on the left
+\fancyhead[R]{\thepage} % Image and page number on the right
+\renewcommand{\headrulewidth}{0.4pt} % Line separating header from text
+
+% Add logo to the upper right corner
+
+% Set headers for sections without numbers
+\fancypagestyle{plain}{
+	\fancyhf
+	\fancyhead{}
+	\fancyhead[L]{\nouppercase{\leftmark}}
+	\fancyhead[C]{}
+	\fancyhead[R]{\thepage}}
+
+\usepackage{csquotes} % Correct german quotes
+\usepackage[style=apa,sorting=nyt, doi = true]{biblatex} % Set citation style to APA
+\addbibresource{references.bib} % Add references to this file
+
+\usepackage[printonlyused]{acronym} % Create abbreviations
+
+\usepackage[colorlinks = true,citecolor = blue,linkcolor = black]{hyperref} % Enable hyperrefs and set colors
