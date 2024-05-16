@@ -24,14 +24,14 @@ Almost every line of code is commented in englisch. Using the template should be
 3. `pre-chapters`: This folder holds several chapters like the declaration of the title page. You can modify the content. Do not touch the first two to three lines (`\section*{Ehrenwörtliche Erklärung}` or `\markboth{Ehrenwörtliche Erklärung}{Ehrenwörtliche Erklärung}`) unless you want to change the apperance of the document.
 4. `main-content`: Add your chapters here. Every chapter with the hierarchy 1 in the table of contents should have a separate `.tex` file in this folder. Include the chapters in the `main.tex` file like so:
 
-\```latex
+```latex
 \input{layout}
 \begin{document}
 \input{pre_chapter/title_page} 
 \input{main_content/introduction}
 \input{main_content/literature_review}
 \end{document}
-\```
+```
 
 4. Paste your references in the `bib.tex` format to the file `references.bib`. Personally, I like to use paperlib to store and organize scienfitic articles.
 
