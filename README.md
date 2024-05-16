@@ -1,6 +1,6 @@
 # My LaTeX Template
 
-A simple and elegant LaTeX template for academic and professional documents.
+This LaTeX template is an almost exact replication of the official MS Word template used for academic documents at the Institute for Business Analytics, University of Ulm. Please note that this is not an official template. I created it for use in writing my Master's thesis. It’s advisable to consult with your mentor to ensure you are permitted to use this template for your work.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -12,20 +12,21 @@ A simple and elegant LaTeX template for academic and professional documents.
 7. [Contact Information](#contact-information)
 
 ## Installation
-Install this
-
-
-### Prerequisites
-- TeX Live or MiKTeX
-
-### Installation Instructions
+I recommend using <a>https://www.overleaf.com</a> for using and editing the template
+1. Download the file 'latex_template_iba'
+2. Sign in to your overleaf account
+3. Import the file by clicking `New Project` > `Upload Project`
 
 ## Usage
+Almost every line of code is commented in englisch. Using the template should be very straight-forward. You will find several folders in the `.zip` file:
+1. Images: Upload all of your images here. Do not change the name of "iba-logo.png" and "uni-ulm-logo.png". Both logos are used in the document. 
+2. pre-chapters: This folder holds several chapters like the declaration of the title page. You can modify the content. Do not touch the first two to three lines (`\section*{Ehrenwörtliche Erklärung}` or `\markboth{Ehrenwörtliche Erklärung}{Ehrenwörtliche Erklärung}`) unless you want to change the apperance of the document.
+3. main-content: Add your chapters here. Every chapter with the hierarchy 1 in the table of contents should have a separate `.tex` file in this folder. Include the chapters in the `main.tex` file like so:
 
 ## Examples
 
 ## Acknowledgments
-- This template was inspired by <a>https://www.uni-ulm.de/mawi/iba/lehre/downloads/</a>
+- This template was inspired by <a>https://www.uni-ulm.de/mawi/iba/lehre/downloads/</a> (Only accessable via the university connection)  
 
 ## Contact Information
 For questions, please contact anton.awild@gmail.com
