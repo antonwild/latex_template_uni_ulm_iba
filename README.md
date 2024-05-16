@@ -14,11 +14,13 @@ A simple and elegant LaTeX template for academic and professional documents.
 ## Installation
 Lorem Ipsum
 
-**#usage**
-This is how to use the template
 
 ### Prerequisites
 - TeX Live or MiKTeX
 
 ### Installation Instructions
 
+## Usage
+
+## Examples
+    
