@@ -25,13 +25,14 @@ Almost every line of code is commented in englisch. Using the template should be
 4. `main-content`: Add your chapters here. Every chapter with the hierarchy 1 in the table of contents should have a separate `.tex` file in this folder. Include the chapters in the `main.tex` file like so:
 
 \```latex
-\input{layout} % This line imports the styling based of the `layout.tex` file.
+\input{layout}
 \begin{document}
-\input{pre_chapter/title_page} % Import the title page. Other chapters like TOC or list of figures are left out in this example
-\input{main_content/introduction} % Import your first Chapter 1. Introduction
-\input{main_content/literature_review} % Import the chapter 2. Literature Review
+\input{pre_chapter/title_page} 
+\input{main_content/introduction}
+\input{main_content/literature_review}
 \end{document}
 \```
+
 4. Paste your references in the `bib.tex` format to the file `references.bib`. Personally, I like to use paperlib to store and organize scienfitic articles.
 
 ## Included Chapters
