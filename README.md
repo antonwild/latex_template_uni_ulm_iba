@@ -12,7 +12,7 @@ This LaTeX template is an almost exact (germnan) replication of the official MS 
 
 ## Installation
 I recommend using <a>https://www.overleaf.com</a> for using and editing the template
-1. Download the file 'latex_template_iba'
+1. Download the files in the folder 'Latex_Template_IBA'
 2. Sign in to your overleaf account
 3. Import the file by clicking `New Project` > `Upload Project`
 
