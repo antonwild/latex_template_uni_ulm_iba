@@ -1,6 +1,6 @@
 # LaTeX Template: Institute for Business Analytics, University of Ulm (2024)
 
-This LaTeX template is an almost exact (germnan) replication of the official MS Word template used for academic documents at the Institute for Business Analytics, University of Ulm. Please note that this is **not an official template**. I created it for use in writing my Master's thesis. It’s advisable to consult with your mentor to ensure you are permitted to use this template for your work.
+This LaTeX template is an almost exact (german) replication of the official MS Word template used for academic documents at the Institute for Business Analytics, University of Ulm. Please note that this is **not an official template**. I created it for use in writing my Master's thesis. It’s advisable to consult with your mentor to ensure you are permitted to use this template for your work.
 
 ## Table of Contents
 1. [Installation](#installation)
